@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>FOODMAP</title>
+  <!-- Materialize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--CSS-->
+  <link rel="stylesheet" href="css/main.css">
+  <!--viewport-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+  <!--Vista-splash-->
+  <section id="view-splash">
+    <div class="container">
+      <div class="row">
+        <div class="text cols col-12">
+          <div class="logo" ><img src="assets/images/logo1.png"/>
+          <span><strong>Foodmap</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class=" container h1">
+    <div class="logo" ><img src="assets/images/logo1.png"/>
+
+    </div>
+    <div class="row">
+      <div class="cols col-12">
+        <span><strong>Foodmap</span>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <!--contenedor del mapa-->
+  <section class="container">
+    <div class="row">
+      <div class= id="map""cols col-12" >
+        <!--google maps-->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15049.539355506155!2d-99.14008094999998!3d19.43896775!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1516483868947" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+  <!--contenedor del select-->
+  <section class="container">
+    <div class="row">
+      <div class="cols col-12 text">
+        <span><strong>Comida cerca de ti</span>
+      </div>
+      <div class="cols col-12">
+        <!--select de filtrado-->
+        <select class="browser-default" id="selec-tipo">
+          <option value="" disabled selected>Select the type of food</option>
+          <option value="Korean">Korean</option>
+          <option value="French">French</option>
+          <option value="Thai">Thai</option>
+        </select>
+      </div>
+    </div>
+  </section>
+<!--contenedor del select-->
+  <section class="container">
+    <div class="row">
+      <div class="cols col-12" id="text-list" >
+      </div>
+    </div>
+  </section>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

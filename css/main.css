@@ -1,0 +1,88 @@
+/*Estilos generales*/
+/*
+html{
+  background-image: url("assets/images/background.png");
+  background-attachment: local;
+  overflow:scroll;
+  width: 100%;
+
+}
+*/
+body{
+  background-color: black;
+background-image: url("assets/images/background.png");
+width: 100%;
+height: 50%;
+}
+/*estilo de texto*/
+.text{
+  margin-top: 10%;
+}
+/*Vista splash estilos*/
+#view-splash{
+    background-image: url("assets/images/logo1.png");
+  background-color: black;
+  color: white;
+  font-size: 400%;
+  font-weight: 50;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+/*estilos de cajas contenedoras*/
+.container{
+text-align: center;
+  width: 50%;
+  margin: 20px auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+border: solid #F39C12   7px;
+}
+/*Estilos de encabezado*/
+.h1{
+  text-align: center;
+  color: white;
+  font-size: 400%;
+  font-weight: 50;
+}
+
+hr{
+   height:5px;
+   width: 70%;
+   background-color:white;
+ }
+
+#mapa{
+  text-align: center;
+}
+
+iframe{
+  width: 100%;
+}
+
+.text{
+  font-size: 250%;
+  font-weight:50;
+  text-align: center;
+  color: white;
+}
+.background-image>img{
+position: absolute;
+}
+.logo>img{
+  width: 200px;
+  height: 100px;
+  margin: 1%;
+}
+
+#text-list{
+  text-align: center;
+}
+/*dummyimages*/
+img {
+  width: 120px;
+  height: 12 0px;
+  margin-left: 5px;
+}
